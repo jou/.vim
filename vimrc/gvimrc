@@ -1,0 +1,14 @@
+set guioptions-=T		" remove toolbar
+set guioptions-=m		" remove menu bar
+set guifont=Menlo\ Regular:h15
+" set guifont=Droid\ Sans\ Mono\ 12
+
+set background=light
+colorscheme solarized
+
+set lines=30
+set columns=100
+
+set statusline=%F%M%R%H%W\ %y[%{&ff}][%{&fenc}]\ [charcode:\ \%03.3bd/\%02.2Bh]\ [pos:\ %04l,%03v\ (%p%%\*%L)]
+
+set clipboard=unnamed

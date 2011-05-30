@@ -1,0 +1,29 @@
+call pathogen#runtime_append_all_bundles()
+
+syntax on
+
+set nocompatible
+
+set ls=2
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set scrolloff=3
+
+set showcmd
+
+set title
+set ttyfast
+
+set modeline
+set modelines=3
+
+set incsearch
+
+set cursorline
+
+filetype plugin on
+filetype plugin indent on
