@@ -1,7 +1,6 @@
 set guioptions-=T		" remove toolbar
 set guioptions-=m		" remove menu bar
-set guifont=Menlo\ Regular:h15
-" set guifont=Droid\ Sans\ Mono\ 12
+set guifont=Menlo\ Regular:h16
 
 set background=light
 colorscheme solarized
