@@ -28,3 +28,7 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/proj-vim"]
+	path = bundle/proj-vim
+	url = git://github.com/tmallen/proj-vim.git
+    ignore = untracked
