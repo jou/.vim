@@ -25,3 +25,6 @@
 [submodule "bundle/fuzzyfinder_textmate/plugin"]
 	path = bundle/fuzzyfinder_textmate/plugin
 	url = git://github.com/sethbc/fuzzyfinder_textmate.git
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = git://github.com/mileszs/ack.vim.git
