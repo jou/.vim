@@ -26,6 +26,8 @@ set incsearch
 
 set cursorline
 
+set number
+
 filetype plugin on
 filetype plugin indent on
 
