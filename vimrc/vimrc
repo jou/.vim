@@ -28,3 +28,7 @@ set cursorline
 
 filetype plugin on
 filetype plugin indent on
+
+if filereadable($HOME."/.vim/vimrc/vimrc-local.vim")
+    source ~/.vim/vimrc/vimrc-local.vim
+endif
