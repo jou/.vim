@@ -1,3 +1,4 @@
 .netrwhist
 project-rc
 vimrc/vimrc-local.vim
+bundle/*/doc/tags
