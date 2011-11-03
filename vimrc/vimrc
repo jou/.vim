@@ -32,3 +32,6 @@ filetype plugin indent on
 if filereadable($HOME."/.vim/vimrc/vimrc-local.vim")
     source ~/.vim/vimrc/vimrc-local.vim
 endif
+
+set nofoldenable
+let php_folding = 1
