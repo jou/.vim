@@ -1,5 +1,6 @@
 require 'pathname'
 
+desc "Symlink .vimrc and .gvimrc"
 task :symlink_rcfiles do
   current_path = Pathname.new(__FILE__).realpath.dirname
   home = Pathname.new(ENV['HOME'])
@@ -17,10 +18,14 @@ task :symlink_rcfiles do
   end
 end
 
+desc "Update git submodules"
 task :update_submodules do
   puts "Update submodules"
   system "git submodule init"
   system "git submodule update"
 end
 
+task :default => [:update_submodules]
+
+desc "Initialize for first checkout"
 task :init => [:update_submodules, :symlink_rcfiles]
