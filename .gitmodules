@@ -41,6 +41,10 @@
 	path = bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
     ignore = untracked
+[submodule "bundle/xml.vim"]
+	path = bundle/xml.vim
+	url = git://github.com/othree/xml.vim.git
+    ignore = untracked
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
 	url = git://github.com/garbas/vim-snipmate.git
