@@ -36,9 +36,23 @@ endif
 set nofoldenable
 let php_folding = 1
 
+" SuperTab settigns
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabDefaultCompletionTypeDiscovery = [
 \ "&completefunc:<c-x><c-u>",
 \ "&omnifunc:<c-x><c-o>",
 \ ]
 let g:SuperTabLongestHighlight = 1
+
+" Eclim settings
+" 'open' on OSX will open the url in the default browser without issue
+let g:EclimBrowser='open'
+let g:EclimSignLevel = 2
+
+" Tagbar settings
+map <leader>g :TagbarToggle<CR>
+let g:tagbar_type_javascript = {
+    \ 'ctagsbin' : 'jsctags'
+    \ }
+let g:tagbar_autoclose = 1
+let g:tagbar_autofocus = 1
