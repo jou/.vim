@@ -12,3 +12,6 @@ snippet testprov
 	}
 snippet arr
 	array(${1})
+
+snippet ifndef
+	if( !defined( '${1:CONST}' ) ) { define( '$1', ${2:null} ); }${3}
