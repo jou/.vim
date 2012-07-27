@@ -1,13 +1,13 @@
 set guioptions-=T		" remove toolbar
 set guioptions-=m		" remove menu bar
+
 let s:os = substitute(system('uname'), "\n", "", "")
 
 if s:os == "Darwin"
     set guifont=Menlo\ Regular:h16
 elseif s:os == "Linux"
-    set guifont=Monospace\ 13
+    set guifont=DejaVu\ Sans\ Mono\ 16
 endif
-
 
 set background=light
 colorscheme solarized
@@ -26,6 +26,6 @@ let g:indent_guides_start_level = 2
 
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#fdf6e3
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#f5f2e7
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#eee8d5
 
 IndentGuidesEnable
